@@ -30,7 +30,7 @@ const Like = ({ post }) => {
 
   return (
     <div onClick={handleLike}>
-      <img src="./icons/clap.svg" className="clap" alt="clap" />
+      <img src="./icons/thumb.svg" className="thumb" alt="thumb up" />
       <span>{post.likes}</span>
     </div>
   );

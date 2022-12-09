@@ -116,7 +116,7 @@ p {
 .post .author div {
   display: flex;
 }
-.post .author .clap {
+.post .author .thumb {
   height: 25px;
   width: 25px;
   -o-object-fit: cover;
