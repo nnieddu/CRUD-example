@@ -17,7 +17,7 @@ const PostForm = () => {
         title,
         content,
         author: user[0].pseudo,
-        authorID: user[0].authorID,
+        authorID: user[0].id,
         likes: 0,
       };
 

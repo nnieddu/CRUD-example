@@ -19,7 +19,6 @@ const Like = ({ post }) => {
     };
     dispatch(addLike(postData));
     if (post.authorID === user[0].id) {
-			console.log("NANI ?")
       const userData = {
         pseudo: user[0].pseudo,
         likes: ++user[0].likes,
