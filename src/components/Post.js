@@ -18,6 +18,7 @@ const Post = ({ post }) => {
       img: post.img,
       title: editTitle,
       author: user[0].pseudo,
+      authorID: user[0].id,
       content: editContent,
       likes: post.likes,
       id: post.id,

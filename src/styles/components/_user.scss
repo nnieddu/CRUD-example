@@ -4,6 +4,7 @@
 	
   .user {
 		color: white;
+		line-height: 0;
 		border-radius: 10px;
     text-align: center;
     width: 190px;
@@ -12,7 +13,6 @@
 
   h3 {
     font-size: 1.5rem;
-		font-weight: 600;
   }
 
   img {
@@ -24,6 +24,5 @@
 
   p {
     font-size: 1.3rem;
-		line-height: 1;
   }
 }

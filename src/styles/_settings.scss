@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
 
 $color-1: rgba(255, 255, 255, 0.65);
@@ -14,12 +13,13 @@ $color-4: rgb(168, 168, 168);
 
 body {
   color: $color-2;
-  margin: 0 auto;
+	max-width: 100vw;
+	overflow-x: hidden;
   font-family: "Amiri", serif;
 	min-height: 100vh;
 	background: rgb(141, 139, 139);
 }
-.myBody {
+.body {
 	max-width: 1200px;
   width: 90%;
   margin: 0 auto;
@@ -27,7 +27,6 @@ body {
 
 .navbar {
 	max-height: 140px;
-	// box-shadow: 0 4px 40px rgba(255, 255, 255, 0.35);
 	border-bottom: solid rgba(43, 42, 42, 0.534) 8px;
 	border-radius: 0 0 15px 15px;
 }

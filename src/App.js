@@ -36,7 +36,7 @@ const App = () => {
         </Container>
         </Container>
       </Navbar>
-      <div className="myBody">
+      <div className="body">
         <PostForm />
         <div className="content">
           <div className="post-container">

@@ -2,18 +2,44 @@
   "posts": [
     {
       "img": "https://picsum.photos/seed/10/1500/400",
-      "title": "Nice",
+      "title": "Un titre d'article",
       "author": "user42",
-      "content": "Superbe ds",
-      "likes": 15,
+      "content": "Un simple article crée par user42 et modifiale uniquement par lui",
+      "likes": 1,
       "id": 1
+    },
+    {
+      "img": "https://picsum.photos/seed/182/1500/400",
+      "title": "Bonjour de la part de randomUser",
+      "author": "randomUser",
+      "content": "Je ne suis éditable que par randomUser",
+      "likes": 10,
+      "id": 2
+    },
+    {
+      "img": "https://picsum.photos/seed/87/1500/400",
+      "title": "Un article crée par nnieddu",
+      "author": "nnieddu",
+      "content": "Je suis éditable ou supprimable a tous moment !",
+      "likes": 5,
+      "id": 3
     }
   ],
   "users": [
     {
-      "pseudo": "user42",
-      "likes": 69,
+      "pseudo": "nnieddu",
+      "likes": 3,
       "id": 1
+    },
+    {
+      "pseudo": "randomUser",
+      "likes": 0,
+      "id": 2
+    },
+    {
+      "pseudo": "user42",
+      "likes": 0,
+      "id": 3
     }
   ]
 }

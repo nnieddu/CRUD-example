@@ -16,13 +16,15 @@ const Like = ({ post }) => {
       likes: ++post.likes,
       id: post.id,
     };
-    const userData = {
-      pseudo: user[0].pseudo,
-      likes: ++user[0].likes,
-      id: user[0].id,
-    };
     dispatch(addLike(postData));
-    dispatch(addUserLike(userData));
+    if (post.authorID === user[0].id) {
+      const userData = {
+        pseudo: user[0].pseudo,
+        likes: ++user[0].likes,
+        id: user[0].id,
+      };
+      dispatch(addUserLike(userData));
+    }
   };
 
   return (

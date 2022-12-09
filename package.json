@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "bootstrap": "^5.2.3",
+    "caniuse-lite": "^1.0.30001439",
     "json-server": "^0.17.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.7.0",
@@ -22,9 +23,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run sass && npm run prefix && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "sass": "sass ./src/styles/index.scss:./src/styles/index.css --style compressed",
+    "prefix": "postcss ./src/styles/index.css --use autoprefixer -d ./src/styles/",
     "server": "json-server --w db.json --port 3003"
   },
   "eslintConfig": {
