@@ -12,12 +12,14 @@ const Like = ({ post }) => {
       img: post.img,
       title: post.title,
       author: post.author,
+      authorID: post.authorID,
       content: post.content,
       likes: ++post.likes,
       id: post.id,
     };
     dispatch(addLike(postData));
     if (post.authorID === user[0].id) {
+			console.log("NANI ?")
       const userData = {
         pseudo: user[0].pseudo,
         likes: ++user[0].likes,

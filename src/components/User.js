@@ -10,8 +10,8 @@ const User = () => {
   return (
     <div className="user-container">
       <div className="user">
-        {/* <h3>{!isEmpty(user[0]) && user[0].pseudo}</h3> */}
         <img src={ppReal} alt="pp" />
+        <h4>{!isEmpty(user[0]) && user[0].pseudo}</h4>
         {/* <p>Age : 28 ans</p> */}
         <p>
           Like{!isEmpty(user[0]) && user[0].likes > 1 ? "s" : null} :{" "}
