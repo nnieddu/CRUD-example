@@ -20,10 +20,10 @@ const App = () => {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              alt=""
+              alt="pp"
               src={logoNN}
-              width="30"
-              height="30"
+              width="50"
+              height="50"
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
