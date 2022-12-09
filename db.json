@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "img": "https://picsum.photos/seed/10/1500/400",
+      "title": "Nice",
+      "author": "user42",
+      "content": "Superbe ds",
+      "likes": 15,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "pseudo": "user42",
+      "likes": 69,
+      "id": 1
+    }
+  ]
+}

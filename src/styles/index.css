@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #292929;
+  margin: 0 auto;
+  font-family: "Amiri", serif;
+  min-height: 100vh;
+  background: rgb(141, 139, 139);
+}
+
+.myBody {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar {
+  max-height: 140px;
+  border-bottom: solid rgba(43, 42, 42, 0.534) 8px;
+  border-radius: 0 0 15px 15px;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 20px;
+}
+
+input[type=submit] {
+  border-radius: 5px;
+  margin-top: 4px;
+  background: #1a8917;
+  width: 100px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-left: auto;
+  letter-spacing: 1px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.post {
+  border: 1px solid #292929;
+  border-radius: 10px;
+  padding: 25px;
+  position: relative;
+  margin: 0px 0 20px;
+  padding-bottom: 60px;
+  background-color: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 4px 40px rgba(255, 255, 255, 0.35);
+}
+.post .edit-delete {
+  position: absolute;
+  right: 20px;
+}
+.post .edit-delete img {
+  height: 20px;
+  width: 20px;
+  margin: 0 4px;
+}
+.post .post-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
+.post form textarea {
+  width: 100%;
+  height: 50px;
+  resize: none;
+  border: rgb(168, 168, 168) solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.post form input[type=submit] {
+  padding: 10px 5px;
+  width: 180px;
+  border: none;
+  margin: -3px 0 0 auto;
+  display: block;
+}
+.post input[type=submit] {
+  font-weight: 500;
+  color: white;
+}
+.post .author {
+  position: absolute;
+  right: 28px;
+  bottom: 10px;
+  display: flex;
+}
+.post .author h5 {
+  margin-right: 10px;
+  transform: translateY(3px);
+}
+.post .author div {
+  display: flex;
+}
+.post .author .clap {
+  height: 25px;
+  width: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.user-container {
+  margin-left: 55%;
+  position: relative;
+}
+.user-container .user {
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 190px;
+  padding: 4px 4px 1px 4px;
+}
+.user-container h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.user-container img {
+  border-radius: 150px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px 0 8px;
+}
+.user-container p {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.form-container {
+  border: 1px solid #292929;
+  border-radius: 10px;
+  margin: 20px 0 10px;
+  width: 50%;
+  max-width: 500px;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 15px;
+  box-shadow: 0 4px 40px rgba(255, 255, 255, 0.35);
+}
+.form-container form input,
+.form-container form textarea {
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  font-family: "Amiri", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 5px 10px;
+  resize: none;
+}
+.form-container form input[type=submit] {
+  font-weight: 500;
+  color: white;
+}
+.form-container form input[type=text],
+.form-container form textarea {
+  margin-bottom: 6px;
+}
+.form-container form textarea {
+  height: 80px;
+}/*# sourceMappingURL=index.css.map */

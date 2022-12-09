@@ -1,0 +1,29 @@
+.user-container {
+  margin-left: 55%;
+  position: relative;
+	
+  .user {
+		color: white;
+		border-radius: 10px;
+    text-align: center;
+    width: 190px;
+    padding: 4px 4px 1px 4px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+		font-weight: 600;
+  }
+
+  img {
+    border-radius: 150px;
+    height: 70px;
+    object-fit: cover;
+    margin: 10px 0 8px;
+  }
+
+  p {
+    font-size: 1.3rem;
+		line-height: 1;
+  }
+}
