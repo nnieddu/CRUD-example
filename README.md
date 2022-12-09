@@ -14,4 +14,4 @@ npm run server
 npm start
 ```
 
-  <img alt="GIF CRUD DEMO" src="https://github.com/nnieddu/CRUD-exemple/blob/main/package.json/img.gif" />
+<img alt="GIF CRUD DEMO" src="https://github.com/nnieddu/CRUD-exemple/blob/main/package.json/img.gif" width="400" height="800" />
