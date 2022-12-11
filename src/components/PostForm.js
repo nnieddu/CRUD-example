@@ -20,8 +20,7 @@ const PostForm = () => {
         authorID: user[0].id,
         likes: 0,
       };
-
-      await dispatch(addPost(data));
+      dispatch(addPost(data));
       setTitle("");
       setContent("");
       dispatch(getPosts());
@@ -31,7 +30,8 @@ const PostForm = () => {
   return (
     <div className="form-container">
       <form onSubmit={(e) => handleForm(e)}>
-        <input
+        <textarea
+					className="titleTxtArea"
           type="text"
           placeholder="Titre du poste"
           onChange={(e) => setTitle(e.target.value)}

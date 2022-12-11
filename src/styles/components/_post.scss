@@ -6,7 +6,7 @@
   margin: 0px 0 20px;
   padding-bottom: 60px;
 	background-color: $color-1;
-	box-shadow: 0 4px 40px rgba(255, 255, 255, 0.35);
+	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.35);
   .edit-delete {
     position: absolute;
     right: 20px;
@@ -34,18 +34,8 @@
 			border-radius: 10px;
       padding: 10px;
     }
-    input[type="submit"] {
-      padding: 10px 5px;
-      width: 180px;
-      border: none;
-      margin: -3px 0 0 auto;
-      display: block;
-    }
   }
-	input[type="submit"] {
-		font-weight: 500;
-		color: white;
-	}
+	
   .author {
     position: absolute;
     right: 28px;
