@@ -5,33 +5,33 @@
       "title": "Un titre d'article",
       "author": "user42",
       "authorID": 3,
-      "content": "Un simple article crée par user42 et modifiale uniquement par lui",
+      "content": "Un simple article crée par user42 et modifiable uniquement par lui",
       "likes": 5,
       "id": 1
     },
     {
       "img": "https://picsum.photos/seed/182/1500/400",
-      "title": "Bonjour de la part de randomUser",
+      "title": "Bonjour (de la part de randomUser)",
       "author": "randomUser",
       "authorID": 2,
-      "content": "Je ne suis éditable que par randomUser",
+      "content": "Je ne suis éditable et supprimable que par randomUser",
       "likes": 5,
       "id": 2
     },
     {
       "img": "https://picsum.photos/seed/87/1500/400",
-      "title": "Un article crée par nnieddu",
+      "title": "Un article crée par nniedduU2",
       "author": "nnieddu",
       "authorID": 1,
-      "content": "Je suis éditable ou supprimable a tous moment ! e]\n\n\n\nwefouhewf\n\nwefwef",
-      "likes": 4,
+      "content": "Bonjour petit Douwi 💛",
+      "likes": 5,
       "id": 3
     }
   ],
   "users": [
     {
       "pseudo": "nnieddu",
-      "likes": 4,
+      "likes": 5,
       "id": 1
     },
     {

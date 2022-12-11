@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
-import { deletePost, editPost } from "../actions/post.action";
+import { deletePost, editPost } from "../actions/post.actions";
 import Like from "./Like";
 import { isEmpty } from "./Utils";
 
@@ -11,7 +12,6 @@ const Post = ({ post }) => {
 
   const handleEdit = (e) => {
     e.preventDefault();
-		console.log("e :", e)
     const postData = {
       img: post.img,
       title: e.target[0].value,
@@ -24,6 +24,14 @@ const Post = ({ post }) => {
     dispatch(editPost(postData));
     setEditToggle(false);
   };
+
+	useEffect(() => {  
+		if (editToggle) {
+			const textarea = document.getElementsByClassName("mytextarea");
+			textarea[1].style.height = `${textarea[1].scrollHeight}px`;
+		}
+	});
+	
 
   return (
     <div className="post">
@@ -46,12 +54,16 @@ const Post = ({ post }) => {
       {editToggle ? (
         <form onSubmit={(e) => handleEdit(e)}>
           <textarea
+						required
+						maxLength="50"
 						className="titleTxtArea"
             type="text"
             defaultValue={post.title}
           />
           <img src={post.img} className="post-img" alt="img-post" />
           <textarea
+						required
+						className="mytextarea"
             type="text"
             defaultValue={post.content}
           />
@@ -59,7 +71,7 @@ const Post = ({ post }) => {
         </form>
       ) : (
         <>
-          <h2>{post.title}</h2>
+          <h2 className="postTitle">{post.title}</h2>
           <img src={post.img} className="post-img" alt="img-post" />
           <p>{post.content}</p>
         </>

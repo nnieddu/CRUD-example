@@ -17,3 +17,11 @@ npm start
 ```
 
 <img alt="GIF CRUD DEMO" src="https://github.com/nnieddu/CRUD-exemple/blob/main/img.gif"/>
+
+  
+  
+  
+  
+TODO :  
+- max title size message
+- auto line break for long content/title

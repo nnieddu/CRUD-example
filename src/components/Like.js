@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addLike } from "../actions/post.action";
+import { addLike } from "../actions/post.actions";
 import { addUserLike } from "../actions/user.actions";
 
 const Like = ({ post }) => {

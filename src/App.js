@@ -17,23 +17,16 @@ const App = () => {
     <div>
       <Navbar bg="dark" variant="dark">
         <Container fluid>
-        <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand style={{marginLeft: "20px"}}>
             <img
               alt="pp"
               src={logoNN}
               width="50"
               height="50"
-              className="d-inline-block align-top"
             />
           </Navbar.Brand>
-        </Container>
-        <Container>
-      	<h1>CRUD Exemple</h1>
-        </Container>
-        <Container>
+      	<h1>CRUD</h1>
 				<User />
-        </Container>
         </Container>
       </Navbar>
       <div className="body">

@@ -3,19 +3,20 @@ $color-2: #292929;
 $color-3: #1a8917;
 $color-4: rgb(168, 168, 168);
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+// * {
+//   padding: 0;
+//   margin: 0;
+//   box-sizing: border-box;
+// }
 
 body {
+  // overflow-x: hidden;
   color: $color-2;
   max-width: 100vw;
-  overflow-x: hidden;
   min-height: 100vh;
   background: rgb(141, 139, 139);
 }
+
 .body {
   max-width: 1400px;
   width: 90%;
