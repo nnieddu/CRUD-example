@@ -5,9 +5,6 @@
 - Post or Edit article (title + content)  
 -	Remove article  
 - Like a post (Total like counter under user profile pictures is incremented only if on of his post is liked).
-  
-To try it online, i made a version where the call to Json Server is removed and the db.json is update localy :
-https://nnieddu.github.io/
 
 To try it on your machine clone this repo then in the folder :
 ```
