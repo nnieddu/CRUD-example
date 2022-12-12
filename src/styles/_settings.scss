@@ -1,7 +1,7 @@
 $font-color-light: rgb(255, 255, 255);
 $font-color-dark: #000000;
 
-$color-1: rgba(255, 255, 255, 0.55);
+$color-1: rgba(255, 255, 255, 0.60);
 $color-2: #292929;
 $color-3: #1a8917;
 $color-4: rgb(168, 168, 168);
@@ -19,6 +19,7 @@ body {
   min-height: 100vh;
   // background: rgb(141, 139, 139);
   background: url(../assets/Elegant_Background-2.jpg);
+  background-size: cover;
 }
 
 .body {
