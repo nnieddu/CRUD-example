@@ -1,4 +1,5 @@
 body {
+  overflow-x: hidden;
   color: #000000;
   max-width: 100vw;
   min-height: 100vh;

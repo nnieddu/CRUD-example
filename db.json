@@ -7,7 +7,7 @@
       "authorID": 3,
       "content": "Un simple article crée par user42 et modifiable uniquement par lui",
       "likes": 8,
-      "id": 1
+      "id": 0
     },
     {
       "img": "https://picsum.photos/seed/182/1500/400",
@@ -16,16 +16,16 @@
       "authorID": 2,
       "content": "Je ne suis éditable et supprimable que par randomUser",
       "likes": 7,
-      "id": 2
+      "id": 1
     },
     {
       "img": "https://picsum.photos/seed/87/1500/400",
       "title": "Un article crée par nnieddu",
       "author": "nnieddu",
       "authorID": 1,
-      "content": "Bonjour petit Douwi 💛\nafuafwe\nefwef",
+      "content": "Bonjour  ",
       "likes": 6,
-      "id": 3
+      "id": 2
     }
   ],
   "users": [
@@ -36,12 +36,12 @@
     },
     {
       "pseudo": "randomUser",
-      "likes": 0,
+      "likes": 7,
       "id": 2
     },
     {
       "pseudo": "user42",
-      "likes": 0,
+      "likes": 8,
       "id": 3
     }
   ]
