@@ -6,6 +6,9 @@
 -	Remove article  
 - Like a post (Total like counter under user profile pictures is incremented only if on of his post is liked).
 
+The post image is fetched randomly with picsum API :
+https://picsum.photos/
+
 To try it on your machine clone this repo then in the folder :
 ```
 npm install
