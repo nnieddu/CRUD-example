@@ -7,7 +7,6 @@ import User from "./components/User";
 import { isEmpty } from "./components/Utils";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-
 import logoNN from "../src/assets/logoNN.svg";
 
 const App = () => {

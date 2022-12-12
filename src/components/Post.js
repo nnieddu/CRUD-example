@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useEffect } from 'react';
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { deletePost, editPost } from "../actions/post.actions";
 import Like from "./Like";
@@ -25,13 +25,12 @@ const Post = ({ post }) => {
     setEditToggle(false);
   };
 
-	useEffect(() => {  
-		if (editToggle) {
-			const textarea = document.getElementsByClassName("mytextarea");
-			textarea[1].style.height = `${textarea[1].scrollHeight}px`;
-		}
-	});
-	
+  useEffect(() => {
+    if (editToggle) {
+      const textarea = document.getElementsByClassName("mytextarea");
+      textarea[1].style.height = `${textarea[1].scrollHeight}px`;
+    }
+  }, [editToggle]);
 
   return (
     <div className="post">
@@ -54,16 +53,16 @@ const Post = ({ post }) => {
       {editToggle ? (
         <form onSubmit={(e) => handleEdit(e)}>
           <textarea
-						required
-						maxLength="50"
-						className="titleTxtArea"
+            required
+            maxLength="50"
+            className="titleTxtArea"
             type="text"
             defaultValue={post.title}
           />
           <img src={post.img} className="post-img" alt="img-post" />
           <textarea
-						required
-						className="mytextarea"
+            required
+            className="mytextarea"
             type="text"
             defaultValue={post.content}
           />

@@ -1,28 +1,20 @@
-.user-container {
-  margin-left: 55%;
-  position: relative;
-	
-  .user {
-		color: white;
-		line-height: 0;
-		border-radius: 10px;
+.user {
+	  color: $font-color-light;
     text-align: center;
-    width: 190px;
-    padding: 4px 4px 1px 4px;
-  }
-
-  h3 {
-    font-size: 1.5rem;
+		margin-right: 3%;
+  h4 {
+    font-size: 1.2rem;
+		margin-bottom: 10px;
+		line-height: 1;
   }
 
   img {
-    border-radius: 150px;
-    height: 60px;
-    object-fit: cover;
-    margin: 10px 0 8px;
+    border-radius: 10px;
+    height: 48px;
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: 1.15rem;
+		line-height: 0.5;
   }
 }
