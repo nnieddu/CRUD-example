@@ -1,5 +1,5 @@
 # CRUD-exemple  
-## This version is not up to date, the local storage version is more maintained and gonna be convert to moder Redux style (RTK)
+## This version is not up to date, the local storage version is more maintained and gonna be convert to modern Redux style (RTK)
 
 ### Basic CRUD model using React, Redux, axios, Json Server as a fake db, picsum API for random post image, styled with React bootstrap and SCSS.  
   
@@ -24,11 +24,3 @@ npm start
 ```
 
 <img alt="GIF CRUD DEMO" src="https://github.com/nnieddu/CRUD-exemple/blob/main/img.gif"/>
-
-  
-  
-  
-  
-TODO :  
-- max title size message
-- auto line break for long content/title
