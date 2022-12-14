@@ -1,4 +1,6 @@
 # CRUD-exemple  
+## This version is not up to date, the local storage version is more maintained and gonna be convert to moder Redux style (RTK)
+
 ### Basic CRUD model using React, Redux, axios, Json Server as a fake db, picsum API for random post image, styled with React bootstrap and SCSS.  
   
 ### Possible actions :  
