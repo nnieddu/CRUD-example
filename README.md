@@ -11,7 +11,7 @@ https://picsum.photos/
    
     
 Try it online with the local storage version here : https://nnieddu.github.io/CRUD/  
-localStorage source : https://github.com/nnieddu/CRUD-localStorage-exemple  
+localStorage version source : https://github.com/nnieddu/CRUD-localStorage-exemple  
   
    
 To try it on your machine clone this repo then in the folder :
