@@ -1,9 +1,9 @@
 # CRUD-exemple  
-## This version is not up to date, the local storage version is more maintained and gonna be convert to modern Redux style (RTK)
+## This version is not up to date, go here : https://github.com/nnieddu/CRUD-localStorage-RTK-ElectronJs for actual best version.
 
-### Basic CRUD model using React, Redux, axios, Json Server as a fake db, picsum API for random post image, styled with React bootstrap and SCSS.  
+#### Basic CRUD model using React, Redux, axios, Json Server as a fake db, picsum API for random post image, styled with React bootstrap and SCSS.  
   
-### Possible actions :  
+#### Possible actions :  
 - Post or Edit article (title + content)  
 -	Remove article  
 - Like a post (Total like counter under user profile pictures is incremented only if on of his post is liked).
