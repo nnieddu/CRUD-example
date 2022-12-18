@@ -1,6 +1,7 @@
-# CRUD-exemple  
-## This version is not up to date, go here : https://github.com/nnieddu/CRUD-localStorage-RTK-ElectronJs for actual best version.
-
+# CRUD-exemple   
+## This version is not up to date, go here for actual best version :     
+https://github.com/nnieddu/CRUD-localStorage-RTK-ElectronJs   
+  
 #### Basic CRUD model using React, Redux, axios, Json Server as a fake db, picsum API for random post image, styled with React bootstrap and SCSS.  
   
 #### Possible actions :  
